@@ -1,0 +1,2 @@
+export declare const styles: Record<"root", import("../../styles/src").CSSProperties | import("../../styles/src").CreateCSSProperties<{}> | import("../../styles/src").PropsFunc<{}, import("../../styles/src").CreateCSSProperties<{}>>>;
+//# sourceMappingURL=index.d.ts.map

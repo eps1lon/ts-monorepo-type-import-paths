@@ -1,0 +1,11 @@
+{
+  "name": "@material-ui/core",
+  "version": "1.0.0",
+  "private": false,
+  "dependencies": {
+    "@material-ui/styles": "^1.0.0"
+  },
+  "scripts": {
+    "build": "tsc --build tsconfig.json"
+  }
+}
