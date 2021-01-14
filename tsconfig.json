@@ -11,7 +11,12 @@
     "declarationMap": true,
     "sourceMap": true,
     "paths": {
-      "@material-ui/*": ["./*/src"]
+      "@material-ui/core": ["./core/src"],
+      "@material-ui/core/*": ["./core/src/*"],
+      "@material-ui/lab": ["./lab/src"],
+      "@material-ui/lab/*": ["./lab/src/*"],
+      "@material-ui/styles": ["./styles/src"],
+      "@material-ui/styles/*": ["./styles/src/*"]
     }
   }
 }

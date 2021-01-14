@@ -1,12 +1,12 @@
 {
-  "name": "@material-ui/core",
+  "name": "@material-ui/lab",
   "version": "1.0.0",
   "private": false,
   "dependencies": {
-    "@material-ui/styles": "^1.0.0",
+    "@material-ui/core": "^1.0.0",
     "@types/react": "^16.8.24"
   },
   "scripts": {
-    "build": "tsc --build tsconfig.json"
+    "build": "tsc -p tsconfig.json"
   }
 }

@@ -8,6 +8,8 @@ export type StyleRules<ClassKey extends string = string> = Record<
 >;
 export function createStyles<ClassKey extends string = string>(
   styles: StyleRules<ClassKey>
-): StyleRules<ClassKey> {
-  return styles;
+): StyleRules<ClassKey>;
+
+export interface StyledComponentProps<ClassKey extends string> {
+  classes?: Record<ClassKey, string>;
 }
