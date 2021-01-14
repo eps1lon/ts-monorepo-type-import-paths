@@ -4,7 +4,7 @@
 
 1. clone this repository
 1. `yarn`
-1. `yarn build`
+1. `yarn start`
 
 ## Expected behavior
 
@@ -16,11 +16,17 @@
 
 Example (removed lines is actual code, added lines is expected code):
 
-`packages/core/dist/index.d.ts`
+`packages/lab/dist/ArrowLeft.d.ts`
 
 ```diff
--export declare const styles: Record<"root", import("../../styles/src").CSSProperties | import("../../styles/src").CreateCSSProperties<{}> | import("../../styles/src").PropsFunc<{}, import("../../styles/src").CreateCSSProperties<{}>>>;
-+export declare const styles: Record<"root", import("../../styles/src").CSSProperties | import("@material-ui/core").CreateCSSProperties<{}> | import("@material-ui/core").PropsFunc<{}, import("@material-ui/core").CreateCSSProperties<{}>>>;
+import * as React from "react";
+-declare const _default: React.JSXElementConstructor<import("../../core/src/SvgIcon").SvgIconProps>;
++declare const _default: React.JSXElementConstructor<import("@material-ui/core/SvgIcon").SvgIconProps>;
+/**
+ * @ignore - internal component.
+ */
+export default _default;
+//# sourceMappingURL=ArrowLeft.d.ts.map
 ```
 
 ## Context
