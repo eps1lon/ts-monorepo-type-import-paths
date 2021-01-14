@@ -1,2 +1,2 @@
-export declare const styles: Record<"root", import("../../styles/src").CSSProperties>;
+export declare const styles: import("@material-ui/styles").StyleRules<"root">;
 //# sourceMappingURL=index.d.ts.map
