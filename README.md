@@ -22,9 +22,6 @@ Example (removed lines is actual code, added lines is expected code):
 import * as React from "react";
 -declare const _default: React.JSXElementConstructor<import("../../core/src/SvgIcon").SvgIconProps>;
 +declare const _default: React.JSXElementConstructor<import("@material-ui/core/SvgIcon").SvgIconProps>;
-/**
- * @ignore - internal component.
- */
 export default _default;
 //# sourceMappingURL=ArrowLeft.d.ts.map
 ```
